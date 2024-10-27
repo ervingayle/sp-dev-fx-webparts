@@ -15,8 +15,8 @@ This web part shows how you can call Azure OpenAI API in Streaming mode. The web
 
 This sample is optimally compatible with the following environment configuration:
 
-![SPFx 1.18.2](https://img.shields.io/badge/SPFx-1.18.2-green.svg)
-![Node.js v16 | v18](https://img.shields.io/badge/Node.js-v16%20%7C%20v18-green.svg)
+![SPFx 1.20.0](https://img.shields.io/badge/SPFx-1.20.0-green.svg)
+![Node.js v18](https://img.shields.io/badge/Node.js-v18-green.svg)
 ![Compatible with SharePoint Online](https://img.shields.io/badge/SharePoint%20Online-Compatible-green.svg)
 ![Does not work with SharePoint 2019](https://img.shields.io/badge/SharePoint%20Server%202019-Incompatible-red.svg "SharePoint Server 2019 requires SPFx 1.4.1 or lower")
 ![Does not work with SharePoint 2016 (Feature Pack 2)](https://img.shields.io/badge/SharePoint%20Server%202016%20(Feature%20Pack%202)-Incompatible-red.svg "SharePoint Server 2016 Feature Pack 2 requires SPFx 1.1")
@@ -40,12 +40,14 @@ This sample is optimally compatible with the following environment configuration
 - You have created an Azure OpenAI service in your subscription
 - Create a Deployment Model (use GPT-3.5-turbo or GPT-4)
 - Grab the Azure OpenAI Key, Endpoint and the deployment model created in previous step (go to your _Azure OpenAI service -> Keys and Endpoint_)
+- Note your API Version as well. This has been added as a configurable property now
 
 
 ## Contributors
 
 - [Luis Mañez](https://github.com/luismanez)
 - [Chris Kent](https://twitter.com/thechriskent)
+- [Ervin Gayle](https://github.com/ervingayle)
 
 ## Version history
 
@@ -53,6 +55,7 @@ This sample is optimally compatible with the following environment configuration
 | ------- | ---------------- | --------------- |
 | 1.0     | January 2, 2024 | Initial release |
 | 1.1     | February 8, 2024 | Theme enhancements & markdown support |
+| 1.2     | October 25, 2024 | Updated packages, Removed mgt-spfx package, added mgt lazyloading pattern |
 
 
 ## Minimal Path to Awesome

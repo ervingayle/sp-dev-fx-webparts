@@ -1,6 +1,5 @@
 import { Stack } from "@fluentui/react";
-import { Person } from "@microsoft/mgt-react/dist/es6/spfx";
-import { ViewType } from "@microsoft/mgt-spfx";
+import { Person } from "@microsoft/mgt-react";
 import * as React from "react";
 import styles from "./ChatStreaming.module.scss";
 
@@ -19,7 +18,7 @@ export default class UserQuestion extends React.Component<
           <p className={styles.message}>{this.props.message}</p>
           <div className={styles.beak} />
         </div>
-        <Person className={styles.avatar} personQuery="me" view={ViewType.image} avatarSize="auto" />
+        <Person className={styles.avatar} personQuery="me" view="image" avatarSize="auto" showPresence={true} />
       </Stack>
     );
   }

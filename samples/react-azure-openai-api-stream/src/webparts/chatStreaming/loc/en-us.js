@@ -5,6 +5,7 @@ define([], function () {
     OpenAiApiEndpointFieldLabel: "OpenAI API Endpoint",
     OpenAiApiKeyFieldLabel: "OpenAI API Key",
     OpenAiApiDeploymentFieldLabel: "OpenAI API Deployment Name",
+    OpenAiApiVersionFieldLabel: "OpenAI API Version",
     AppLocalEnvironmentSharePoint:
       "The app is running on your local environment as SharePoint web part",
     AppLocalEnvironmentTeams:

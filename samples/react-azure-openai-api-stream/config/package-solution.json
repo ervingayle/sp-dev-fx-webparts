@@ -3,10 +3,60 @@
   "solution": {
     "name": "react-azure-openai-api-stream-client-side-solution",
     "id": "81a244d6-89dc-4a40-9e88-87a2565e6104",
-    "version": "1.0.0.0",
+    "version": "1.1.0.0",
     "includeClientSideAssets": true,
     "skipFeatureDeployment": true,
     "isDomainIsolated": false,
+    "webApiPermissionRequests": [
+      {
+        "resource": "Microsoft Graph",
+        "scope": "User.Read"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope": "User.Read.All"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope": "User.ReadBasic.All"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope": "People.Read"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope": "Calendars.Read"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope": "Contacts.Read"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope": "Group.Read.All"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope": "Group.ReadWrite.All"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope": "Tasks.Read"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope": "Tasks.ReadWrite"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope": "Presence.Read"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope": "Presence.Read.All"
+      }
+    ],
     "developer": {
       "name": "",
       "websiteUrl": "",
@@ -30,7 +80,7 @@
         "title": "react-azure-openai-api-stream Feature",
         "description": "The feature that activates elements of the react-azure-openai-api-stream solution.",
         "id": "edb1b265-356e-4aec-9a12-0cabfbba9700",
-        "version": "1.0.0.0"
+        "version": "1.1.0.0"
       }
     ]
   },

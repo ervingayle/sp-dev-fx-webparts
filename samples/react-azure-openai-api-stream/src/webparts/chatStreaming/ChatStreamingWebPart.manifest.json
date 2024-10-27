@@ -20,7 +20,10 @@
     "properties": {
       "openAiApiKey": "",
       "openAiApiEndpoint": "",
-      "openAiApiDeployment": ""
+      "openAiApiDeployment": "",
+      "openAiApiVersion": "2023-06-01-preview",
+      "webPartContext": "",
+      "webPartProperties": ""
     }
   }]
 }

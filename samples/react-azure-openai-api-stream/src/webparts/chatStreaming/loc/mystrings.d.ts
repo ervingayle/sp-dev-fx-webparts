@@ -4,6 +4,7 @@ declare interface IChatStreamingWebPartStrings {
   OpenAiApiEndpointFieldLabel: string;
   OpenAiApiKeyFieldLabel: string;
   OpenAiApiDeploymentFieldLabel: string;
+  OpenAiApiVersionFieldLabel: string;
   AppLocalEnvironmentSharePoint: string;
   AppLocalEnvironmentTeams: string;
   AppLocalEnvironmentOffice: string;

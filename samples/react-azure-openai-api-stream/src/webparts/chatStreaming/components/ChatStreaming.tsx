@@ -89,7 +89,7 @@ export default class ChatStreaming extends React.Component<IChatStreamingProps, 
   private _chatAsStream = async (): Promise<void> => {
 
     const openAiApiOptions = this.props.openApiOptions;
-    const endpoint: string = `${openAiApiOptions.endpoint}/openai/deployments/${openAiApiOptions.deploymentName}/chat/completions?api-version=2023-06-01-preview`;
+    const endpoint: string = `${openAiApiOptions.endpoint}/openai/deployments/${openAiApiOptions.deploymentName}/chat/completions?api-version=${openAiApiOptions.version}`;
 
     const setStreamChunk = (text: string): void => {
       const currentChatGptMessages: IChatMessage[] = cloneDeep(this.state.sessionMessages);
@@ -167,6 +167,10 @@ export default class ChatStreaming extends React.Component<IChatStreamingProps, 
     }
 
     if (!this.props.openApiOptions.deploymentName) {
+      return false;
+    }
+
+    if (!this.props.openApiOptions.version) {
       return false;
     }
 
